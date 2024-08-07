@@ -5,7 +5,7 @@
 
 // console.log(`Hey im ${name} and im ${age}`);
 
-const gameName = new String ('loki-saniya-laufeyson') //inspect 
+const gameName = new String ('loki laufeyson') //inspect 
 
 // console.log(gameName[3]);
 // console.log(gameName.__proto__);
@@ -34,4 +34,4 @@ console.log(url.replace('%20', '-'));
 
 console.log(url.includes('nayak'));
 
-console.log((gameName.split(' ')));
+console.log((gameName.split('-')));
