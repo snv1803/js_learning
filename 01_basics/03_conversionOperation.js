@@ -30,15 +30,15 @@
 // let negValue = -value
 // // console.log(negValue);
 
-// let str1 = "Hello"
-// let str2 = "Saniya"
+let str1 = "Hello"
+let str2 = "Saniya"
 
-// let str3 = str1 + str2
-// console.log(str3);
+let str3 = str1 + str2
+console.log(str3);
 
-// console.log("1" + 2);
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");   
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");   
 
 //****value will be converted to whatever datatype is written at first****
 
