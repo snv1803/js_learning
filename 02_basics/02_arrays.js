@@ -19,3 +19,9 @@ const hoop = hula.flat(Infinity)
 console.log(Array.isArray("Saniya"))
 console.log(Array.from("Saniya"))
 console.log(Array.from({name : "Saniya"}))
+
+let score = 100
+let point = 200
+let marks = 300
+
+console.log(Array.of(score, point, marks));
