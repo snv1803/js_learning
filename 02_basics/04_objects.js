@@ -1,10 +1,10 @@
-// const tinder = {}
+const tinder = {}
 
 // console.log(tinder);
 
-// tinder.id = "123abc"
-// tinder.name = "Tony"
-// tinder.isLoggedIn = "False"
+tinder.id = "123abc"
+tinder.name = "Tony"
+tinder.isLoggedIn = "False"
 
 // console.log(tinder);
 
@@ -26,5 +26,33 @@ const objectFour = {5: "e", 6: "f"}
 
 // const objectThree = {objectOne, objectTwo}
 
-const objectThree = Object.assign({}, objectOne, objectTwo, objectFour) //{} is target and later values are source.
-console.log(objectThree);
+// const objectThree = Object.assign({}, objectOne, objectTwo, objectFour) //{} is target and later values are source.
+// console.log(objectThree);
+
+// const objectThree = {...objectOne, ...objectTwo}
+// console.log(objectThree);
+
+const user1 = [
+    {
+        id : 1,
+        email : "zzz@gmail.com"
+    },
+
+    {
+        id : 1,
+        email : "yyy@gmail.com"
+    },
+
+    {
+        id : 2,
+        email : "ccc@gmail.com"
+    },
+]
+
+// console.log(user1[1]);
+
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
+
+console.log(tinder.hasOwnProperty('email'));
