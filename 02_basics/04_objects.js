@@ -55,4 +55,20 @@ const user1 = [
 // console.log(Object.values(tinder));
 // console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty('email'));
+// console.log(tinder.hasOwnProperty('email'));
+
+
+    const course = {
+        name : "javascript",
+        email : "xyz@gmail.com",
+        price : "1000",
+    }
+
+const {name : xyz} = course  //changes name of value
+console.log(xyz);
+
+[
+    {},
+    {},
+    {}
+]
