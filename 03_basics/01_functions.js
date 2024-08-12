@@ -7,4 +7,29 @@ function sayMyName(){
     console.log("A");
 }
 
-sayMyName()
+// function addTwoNumbers (num1, num2){
+//     console.log(num1 + num2);   
+// }
+
+function addTwoNumbers (num1, num2){
+    // let result = num1 + num2 
+    // return result
+    
+    return num1 + num2
+}
+
+// const  result = addTwoNumbers(3, 5)
+
+// console.log("Result:", result);
+
+function loginUser(username){
+
+    if (username === undefined) {
+        console.log("Enter Username");
+        
+    }
+
+    return `${username} just logged In`
+}
+
+console.log(loginUser())
