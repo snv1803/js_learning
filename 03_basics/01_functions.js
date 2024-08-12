@@ -32,4 +32,30 @@ function loginUser(username){
     return `${username} just logged In`
 }
 
-console.log(loginUser())
+// console.log(loginUser())
+
+function calculateCartPrize(...num1){
+    return num1
+}
+
+// console.log(calculateCartPrize(200, 400, 700))
+
+const user = {
+    username : "Saniya",
+    prize : 999
+}
+
+function handleObjects (anyObject) {
+    console.log(`Username is ${anyObject.username} and Prize is ${anyObject.prize}`);
+    
+}
+
+// handleObjects(user)
+
+const array = [100, 200, 300, 400]
+
+function returnSecondValue(getArray) {
+    return getArray[3]
+}
+
+console.log(returnSecondValue(array));
