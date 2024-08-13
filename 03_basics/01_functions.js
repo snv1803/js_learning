@@ -59,3 +59,4 @@ function returnSecondValue(getArray) {
 }
 
 console.log(returnSecondValue(array));
+
